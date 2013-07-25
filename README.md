@@ -1,6 +1,7 @@
 # OmniAuth Twitter
 
 This gem contains the Twitter strategy for OmniAuth.
+Modified from v0.0.9 to fix raw_info error without Multi_json 1.3 dependency (which breaks rabl). ...Dan Sadaka
 
 Twitter uses the OAuth 1.0a flow, you can read about it here: https://dev.twitter.com/docs/auth/oauth
 
